@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  background-color: black;
+  column-gap: 50px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  color: white;
+  height: 80px;
+}
+
+.nav li {
+  font-size: 30px;
+}
