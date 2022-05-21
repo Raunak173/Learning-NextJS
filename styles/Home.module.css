@@ -1,9 +1,9 @@
-.heading {
-  text-align: center;
-  margin-top: 40px;
-}
-
 .con {
   width: 80%;
+  margin: auto;
+}
+
+.img {
+  width: 60%;
   margin: auto;
 }

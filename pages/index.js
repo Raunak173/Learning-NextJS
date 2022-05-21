@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import b from "../public/b.jpg";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.con}>
-        <h1 className={styles.heading}>Welcome to BLOGZO!</h1>
+        <div className={styles.img}>
+          <Image src={b} />
+        </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
           quibusdam ullam recusandae possimus deserunt voluptas quis quisquam
